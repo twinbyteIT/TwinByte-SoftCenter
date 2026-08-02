@@ -47,6 +47,20 @@ The application includes built-in protection layers:
 *   Validates all file names and paths.
 *   Whitelisting mechanism to prevent unauthorized URL access.
 
+## 🏗 Building from Source
+
+If you prefer to compile the application yourself to ensure complete security, follow these steps:
+
+### Prerequisites
+*   Python 3.x installed on your system.
+*   `PyInstaller` installed (`pip install pyinstaller`).
+
+### Build Command
+Run the following command in the project root directory:
+
+```bash
+pyinstaller --noconfirm --onefile --windowed --icon=TwinByte_SoftCenter.ico --add-data "programs.json;." --add-data "TwinByte_SoftCenter.ico;." --version-file=version_info.txt --name "TwinByte SoftCenter" TwinByteSoftCenter.py
+
 ## 📩 Contact
 
 For inquiries, reach out to: [twinbytecontact@gmail.com](mailto:twinbytecontact@gmail.com)
