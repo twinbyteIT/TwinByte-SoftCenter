@@ -60,6 +60,7 @@ Run the following command in the project root directory:
 
 ```bash
 pyinstaller --noconfirm --onefile --windowed --icon=TwinByte_SoftCenter.ico --add-data "programs.json;." --add-data "TwinByte_SoftCenter.ico;." --version-file=version_info.txt --name "TwinByte SoftCenter" TwinByteSoftCenter.py
+```
 
 ## 📩 Contact
 
