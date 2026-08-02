@@ -17,4 +17,5 @@ Browsers • System Tools • Optimization • Diagnostics • Security • Othe
 Designed for speed, clarity, and everyday convenience.
 Lightweight, elegant, and ready to use anywhere.
 Version 2.0.1
-© 2026 TwinByte IT
+© 2026 TwinByte IT. All rights reserved.
+This software is proprietary. Unauthorized copying, distribution or modification is prohibited.
