@@ -1,0 +1,587 @@
+{
+  "categories": [
+    {
+      "id": "browsers",
+      "name": {
+        "ru": "Браузеры",
+        "en": "Browsers",
+        "pl": "Przeglądarki",
+        "uk": "Браузери"
+      }
+    },
+    {
+      "id": "system",
+      "name": {
+        "ru": "Системные утилиты",
+        "en": "System Utilities",
+        "pl": "Narzędzia systemowe",
+        "uk": "Системні утиліти"
+      }
+    },
+    {
+      "id": "optimization",
+      "name": {
+        "ru": "Оптимизация",
+        "en": "Optimization",
+        "pl": "Optymalizacja",
+        "uk": "Оптимізація"
+      }
+    },
+    {
+      "id": "diagnostics",
+      "name": {
+        "ru": "Диагностика",
+        "en": "Diagnostics",
+        "pl": "Diagnostyka",
+        "uk": "Діагностика"
+      }
+    },
+    {
+      "id": "security",
+      "name": {
+        "ru": "Безопасность",
+        "en": "Security",
+        "pl": "Bezpieczeństwo",
+        "uk": "Безпека"
+      }
+    },
+    {
+      "id": "other",
+      "name": {
+        "ru": "Другое",
+        "en": "Other",
+        "pl": "Inne",
+        "uk": "Інше"
+      }
+    }
+  ],
+  "programs": [
+    {
+      "id": "google_chrome",
+      "category": "browsers",
+      "name": "Google Chrome",
+      "description": {
+        "ru": "Быстрый и безопасный браузер от Google.",
+        "en": "Fast and secure browser from Google.",
+        "pl": "Szybka i bezpieczna przeglądarka od Google.",
+        "uk": "Швидкий і безпечний браузер від Google."
+      },
+      "size": "≈ 250 MB",
+      "url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
+      "accent": "#4C8CFF"
+    },
+    {
+      "id": "mozilla_firefox",
+      "category": "browsers",
+      "name": "Mozilla Firefox",
+      "description": {
+        "ru": "Современный браузер с расширенной приватностью.",
+        "en": "Modern browser with enhanced privacy.",
+        "pl": "Nowoczesna przeglądarka z rozszerzoną prywatnością.",
+        "uk": "Сучасний браузер із розширеною приватністю."
+      },
+      "size": "≈ 70 MB",
+      "url": "https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US",
+      "accent": "#FF751A"
+    },
+    {
+      "id": "microsoft_edge",
+      "category": "browsers",
+      "name": "Microsoft Edge",
+      "description": {
+        "ru": "Браузер от Microsoft с интегрированной защитой.",
+        "en": "Browser from Microsoft with built-in protection.",
+        "pl": "Przeglądarka od Microsoft z wbudowaną ochroną.",
+        "uk": "Браузер від Microsoft із вбудованим захистом."
+      },
+      "size": "≈ 150 MB",
+      "url": "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=en&Consent=0&brand=M100",
+      "accent": "#22B8FF"
+    },
+    {
+      "id": "brave",
+      "category": "browsers",
+      "name": "Brave",
+      "description": {
+        "ru": "Конфиденциальный браузер со встроенной блокировкой рекламы.",
+        "en": "Privacy-focused browser with built-in ad blocking.",
+        "pl": "Prywatna przeglądarka z wbudowaną blokadą reklam.",
+        "uk": "Приватний браузер із вбудованим блокуванням реклами."
+      },
+      "size": "≈ 120 MB",
+      "url": "https://referrals.brave.com/latest/BraveBrowserSetup-BRV090.exe",
+      "accent": "#FF8A00"
+    },
+    {
+      "id": "opera_gx",
+      "category": "browsers",
+      "name": "Opera GX",
+      "description": {
+        "ru": "Браузер для геймеров с уникальным дизайном.",
+        "en": "Browser for gamers with a unique design.",
+        "pl": "Przeglądarka dla graczy z unikalnym designem.",
+        "uk": "Браузер для геймерів з унікальним дизайном."
+      },
+      "size": "≈ 200 MB",
+      "url": "https://download3.operacdn.com/pub/opera_gx/102.0.4880.99/win/Opera_GX_102.0.4880.99_Setup_x64.exe",
+      "accent": "#B100FF"
+    },
+    {
+      "id": "aida64",
+      "category": "system",
+      "name": "AIDA64 Extreme",
+      "description": {
+        "ru": "Диагностика оборудования, мониторинг и тестирование.",
+        "en": "Hardware diagnostics, monitoring and benchmarking.",
+        "pl": "Diagnostyka sprzętu, monitorowanie i testy.",
+        "uk": "Діагностика обладнання, моніторинг і тестування."
+      },
+      "size": "≈ 45 MB",
+      "url": "https://download.aida64.com/aida64extreme835.exe",
+      "accent": "#5D9CFF"
+    },
+    {
+      "id": "cpu_z",
+      "category": "system",
+      "name": "CPU-Z",
+      "description": {
+        "ru": "Инструмент для детального анализа процессора и памяти.",
+        "en": "Tool for detailed CPU and memory analysis.",
+        "pl": "Narzędzie do szczegółowej analizy procesora i pamięci.",
+        "uk": "Інструмент для детального аналізу процесора й пам'яті."
+      },
+      "size": "≈ 10 MB",
+      "url": "https://download.cpuid.com/cpu-z/cpu-z_2.20.2-en.exe",
+      "accent": "#FFB400"
+    },
+    {
+      "id": "gpu_z",
+      "category": "system",
+      "name": "GPU-Z",
+      "description": {
+        "ru": "Узнайте все параметры вашей видеокарты.",
+        "en": "See all the details of your graphics card.",
+        "pl": "Sprawdź wszystkie parametry karty graficznej.",
+        "uk": "Дізнайтеся всі параметри вашої відеокарти."
+      },
+      "size": "≈ 8 MB",
+      "url": "https://de1-dl.techpowerup.com/files/P8MydUuVv3toDdxy5RC5xw/1785711376/GPU-Z.2.70.0.exe",
+      "accent": "#BB37FF"
+    },
+    {
+      "id": "hwmonitor",
+      "category": "system",
+      "name": "HWMonitor",
+      "description": {
+        "ru": "Отслеживание температур и напряжений системы.",
+        "en": "Monitor system temperatures and voltages.",
+        "pl": "Monitorowanie temperatur i napięć w systemie.",
+        "uk": "Моніторинг температур і напруг системи."
+      },
+      "size": "≈ 6 MB",
+      "url": "https://download.cpuid.com/hwmonitor/hwmonitor_1.67.exe",
+      "accent": "#5DFF9A"
+    },
+    {
+      "id": "crystaldiskinfo",
+      "category": "system",
+      "name": "CrystalDiskInfo",
+      "description": {
+        "ru": "Контроль состояния жёстких дисков и SSD.",
+        "en": "Monitor the health of HDDs and SSDs.",
+        "pl": "Kontrola stanu dysków HDD i SSD.",
+        "uk": "Контроль стану жорстких дисків та SSD."
+      },
+      "size": "≈ 10 MB",
+      "url": "https://deac-fra.dl.sourceforge.net/project/crystaldiskinfo/9.9.2/CrystalDiskInfo9_9_2.zip?viasf=1&fid=c130ea1730e6a1f5&e=1785754658&st=YSTKfADZBk__kmrcc0_f0A",
+      "accent": "#60D7FF"
+    },
+    {
+      "id": "boosterx",
+      "category": "optimization",
+      "name": "BoosterX",
+      "description": {
+        "ru": "Оптимизация системы и ускорение запуска ПК.",
+        "en": "System optimization and faster PC startup.",
+        "pl": "Optymalizacja systemu i szybszy start komputera.",
+        "uk": "Оптимізація системи та прискорення запуску ПК."
+      },
+      "size": "≈ 32 MB",
+      "url": "https://dl.boosterx.org/BoosterX.exe",
+      "accent": "#FF4BC2"
+    },
+    {
+      "id": "wise_care_365",
+      "category": "optimization",
+      "name": "Wise Care 365",
+      "description": {
+        "ru": "Полный набор инструментов для очистки и ускорения.",
+        "en": "Full toolkit for cleaning and speeding up your PC.",
+        "pl": "Pełny zestaw narzędzi do czyszczenia i przyspieszania.",
+        "uk": "Повний набір інструментів для очищення та прискорення."
+      },
+      "size": "≈ 42 MB",
+      "url": "https://downloads.wisecleaner.com/soft/WiseCare365_8.0.4.732.exe",
+      "accent": "#4BC7FF"
+    },
+    {
+      "id": "ccleaner",
+      "category": "optimization",
+      "name": "CCleaner",
+      "description": {
+        "ru": "Очистка системы и исправление ошибок реестра.",
+        "en": "System cleanup and registry error repair.",
+        "pl": "Czyszczenie systemu i naprawa błędów rejestru.",
+        "uk": "Очищення системи та виправлення помилок реєстру."
+      },
+      "size": "≈ 10 MB",
+      "url": "https://bits.avcdn.net/productfamily_CCLEANER7/insttype_FREE/platform_WIN/installertype_ONLINE/build_RELEASE/cookie_mmm_ccl_008_999_aah_m",
+      "accent": "#FF2A6E"
+    },
+    {
+      "id": "winrar",
+      "category": "other",
+      "name": "WinRAR",
+      "description": {
+        "ru": "Классический архиватор для Windows.",
+        "en": "Classic archiver for Windows.",
+        "pl": "Klasyczny archiwizator dla Windows.",
+        "uk": "Класичний архіватор для Windows."
+      },
+      "size": "≈ 4 MB",
+      "url": "https://www.rarlab.com/rar/winrar-x64-723.exe",
+      "accent": "#FFB300"
+    },
+    {
+      "id": "7zip",
+      "category": "other",
+      "name": "7-Zip",
+      "description": {
+        "ru": "Лёгкий архиватор с высокой степенью сжатия.",
+        "en": "Lightweight archiver with a high compression ratio.",
+        "pl": "Lekki archiwizator o wysokim stopniu kompresji.",
+        "uk": "Легкий архіватор із високим ступенем стиснення."
+      },
+      "size": "≈ 1 MB",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/466446150/fb7c548d-f537-442d-91bb-7f8888599749?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-07-19T11%3A31%3A28Z&rscd=attachment%3B+filename%3D7z2602-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-07-19T10%3A30%3A56Z&ske=2026-07-19T11%3A31%3A28Z&sks=b&skv=2018-11-09&sig=HnuwE2u%2FkZM1zuPsTfe%2Bdbh%2FEw5AvPpU7R7yo7Y4tlw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NDQ1ODQ0OCwibmJmIjoxNzg0NDU4MTQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lhXWw02zDX91gztHhMAbDuJEJD7se_VcW1Hv6IkVUyE&response-content-disposition=attachment%3B%20filename%3D7z2602-x64.exe&response-content-type=application%2Foctet-stream",
+      "accent": "#7C7CFF"
+    },
+    {
+      "id": "notepadpp",
+      "category": "other",
+      "name": "Notepad++",
+      "description": {
+        "ru": "Мощный текстовый редактор для разработчиков.",
+        "en": "Powerful text editor for developers.",
+        "pl": "Potężny edytor tekstu dla programistów.",
+        "uk": "Потужний текстовий редактор для розробників."
+      },
+      "size": "≈ 10 MB",
+      "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.7/npp.8.9.7.Installer.x64.exe",
+      "accent": "#7CEBFF"
+    },
+    {
+      "id": "everything",
+      "category": "other",
+      "name": "Everything",
+      "description": {
+        "ru": "Молниеносный поиск файлов на компьютере.",
+        "en": "Lightning-fast file search for your computer.",
+        "pl": "Błyskawiczne wyszukiwanie plików na komputerze.",
+        "uk": "Блискавичний пошук файлів на комп'ютері."
+      },
+      "size": "≈ 5 MB",
+      "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe",
+      "accent": "#4AC6FF"
+    },
+    {
+      "id": "sharex",
+      "category": "other",
+      "name": "ShareX",
+      "description": {
+        "ru": "Скриншоты, запись экрана и обмен файлами.",
+        "en": "Screenshots, screen recording and file sharing.",
+        "pl": "Zrzuty ekranu, nagrywanie ekranu i udostępnianie plików.",
+        "uk": "Скриншоти, запис екрана та обмін файлами."
+      },
+      "size": "≈ 13 MB",
+      "url": "https://github.com/ShareX/ShareX/releases/download/v21.0.0/ShareX-21.0.0-setup-x64.exe",
+      "accent": "#66FFB3"
+    },
+    {
+      "id": "vlc",
+      "category": "other",
+      "name": "VLC Media Player",
+      "description": {
+        "ru": "Универсальный медиаплеер с поддержкой всех форматов.",
+        "en": "Universal media player supporting all formats.",
+        "pl": "Uniwersalny odtwarzacz multimedialny obsługujący wszystkie formaty.",
+        "uk": "Універсальний медіаплеєр із підтримкою всіх форматів."
+      },
+      "size": "≈ 50 MB",
+      "url": "https://ftp.sh.cvut.cz/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe",
+      "accent": "#FF4F00"
+    },
+    {
+      "id": "audacity",
+      "category": "other",
+      "name": "Audacity",
+      "description": {
+        "ru": "Редактор аудио и запись звука с множеством эффектов.",
+        "en": "Audio editor and sound recorder with many effects.",
+        "pl": "Edytor audio i nagrywanie dźwięku z wieloma efektami.",
+        "uk": "Аудіоредактор і запис звуку з великою кількістю ефектів."
+      },
+      "size": "≈ 80 MB",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/32921736/1d3adb9d-0994-488c-a835-3a6d5cf3bca4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A51%3A05Z&rscd=attachment%3B+filename%3Daudacity-win-3.7.8-64bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A51%3A00Z&ske=2026-08-02T11%3A51%3A05Z&sks=b&skv=2018-11-09&sig=vm2wp6bTAWCBleeHGPYC57dMfARqcgAaGbgeU1q6cKw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.Lq9AE1xTPS9Oe5-r6ST1I2ChtuOVkHMZEeG4uaYgEU0",
+      "accent": "#1FAAFF"
+    },
+    {
+      "id": "sumatrapdf",
+      "category": "other",
+      "name": "SumatraPDF",
+      "description": {
+        "ru": "Лёгкая и быстрая читалка PDF и электронных книг.",
+        "en": "Lightweight and fast PDF/ebook reader.",
+        "pl": "Lekki i szybki czytnik PDF i e-booków.",
+        "uk": "Легка та швидка читалка PDF і електронних книг."
+      },
+      "size": "≈ 12 MB",
+      "url": "https://files2.sumatrapdfreader.org/software/sumatrapdf/rel/3.6.1/SumatraPDF-3.6.1-64-install.exe",
+      "accent": "#00A4FF"
+    },
+    {
+      "id": "bleachbit",
+      "category": "optimization",
+      "name": "BleachBit",
+      "description": {
+        "ru": "Очистка системы и приватности с открытым кодом.",
+        "en": "Open-source system and privacy cleaner.",
+        "pl": "Otwartoźródłowy program do czyszczenia systemu i prywatności.",
+        "uk": "Очищення системи та приватності з відкритим кодом."
+      },
+      "size": "≈ 25 MB",
+      "url": "https://download.bleachbit.org/BleachBit-6.0.2-setup.exe",
+      "accent": "#46B800"
+    },
+    {
+      "id": "powertoys",
+      "category": "system",
+      "name": "PowerToys",
+      "description": {
+        "ru": "Набор утилит для настройки Windows.",
+        "en": "Set of utilities for customizing Windows.",
+        "pl": "Zestaw narzędzi do dostosowywania Windows.",
+        "uk": "Набір утиліт для налаштування Windows."
+      },
+      "size": "≈ 70 MB",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/184456251/56fcff65-2dee-4dcc-9bae-c653363ba93d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T12%3A03%3A53Z&rscd=attachment%3B+filename%3DPowerToysUserSetup-0.100.2-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T11%3A03%3A03Z&ske=2026-08-02T12%3A03%3A53Z&sks=b&skv=2018-11-09&sig=4B07kZ77BpuOLP3enxsm%2FnzU52uwHLC%2BgMnjO0r22IA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.d6LoZTysdiVlKToBkdPlnSTzOxBR0NXJQANdYOSSY6o",
+      "accent": "#5C9EED"
+    },
+    {
+      "id": "crystaldiskmark",
+      "category": "diagnostics",
+      "name": "CrystalDiskMark",
+      "description": {
+        "ru": "Тест скорости записи и чтения дисков.",
+        "en": "Disk read/write speed benchmark.",
+        "pl": "Test prędkości odczytu i zapisu dysków.",
+        "uk": "Тест швидкості запису та читання дисків."
+      },
+      "size": "≈ 15 MB",
+      "url": "https://deac-ams.dl.sourceforge.net/project/crystaldiskmark/9.0.3/CrystalDiskMark9_0_3.exe?viasf=1&fid=3146e97b3c195781&e=1785755489&st=e9a_SLsC0AKa2xEM1Zx7wQ",
+      "accent": "#62C1FF"
+    },
+    {
+      "id": "malwarebytes",
+      "category": "security",
+      "name": "Malwarebytes",
+      "description": {
+        "ru": "Антивирусное ПО и защита от вредоносных программ.",
+        "en": "Antivirus software and malware protection.",
+        "pl": "Oprogramowanie antywirusowe i ochrona przed malware.",
+        "uk": "Антивірусне ПЗ та захист від шкідливих програм."
+      },
+      "size": "≈ 30 MB",
+      "url": "https://data-cdn.mbamupdates.com/web/mb5-setup-consumer/MBSetup.exe:MBSetup-3.3.exe",
+      "accent": "#0B82E6"
+    },
+    {
+      "id": "vscode",
+      "category": "other",
+      "name": "Visual Studio Code",
+      "description": {
+        "ru": "Популярный редактор кода от Microsoft.",
+        "en": "Popular code editor from Microsoft.",
+        "pl": "Popularny edytor kodu od Microsoft.",
+        "uk": "Популярний редактор коду від Microsoft."
+      },
+      "size": "≈ 130 MB",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/VSCodeUserSetup-x64-1.131.0.exe",
+      "accent": "#007ACC"
+    },
+    {
+      "id": "git",
+      "category": "other",
+      "name": "Git",
+      "description": {
+        "ru": "Система контроля версий для разработчиков.",
+        "en": "Version control system for developers.",
+        "pl": "System kontroli wersji dla programistów.",
+        "uk": "Система контролю версій для розробників."
+      },
+      "size": "≈ 50 MB",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/23216272/279f7f9c-8023-4c3f-b5f6-617ba8be5c02?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A57%3A32Z&rscd=attachment%3B+filename%3DGit-2.55.0.3-64-bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A57%3A21Z&ske=2026-08-02T11%3A57%3A32Z&sks=b&skv=2018-11-09&sig=%2FbX743DEK7spnxXyq24cMsVrgvJ8zBN31sYtQ1IJDb8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.YwF6yEs_H4Y6ZzVnzNZ5kD2EHJXqD3-fRQxoJgHmGsk",
+      "accent": "#F05032"
+    },
+    {
+      "id": "python",
+      "category": "other",
+      "name": "Python 3.14",
+      "description": {
+        "ru": "Официальный установщик Python для Windows.",
+        "en": "Official Python installer for Windows.",
+        "pl": "Oficjalny instalator Pythona dla Windows.",
+        "uk": "Офіційний інсталятор Python для Windows."
+      },
+      "size": "≈ 40 MB",
+      "url": "https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe",
+      "accent": "#3776AB"
+    },
+    {
+      "id": "discord",
+      "category": "other",
+      "name": "Discord",
+      "description": {
+        "ru": "Клиент для голосового и текстового общения.",
+        "en": "Client for voice and text chat.",
+        "pl": "Klient do komunikacji głosowej i tekstowej.",
+        "uk": "Клієнт для голосового та текстового спілкування."
+      },
+      "size": "≈ 90 MB",
+      "url": "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9250/DiscordSetup.exe",
+      "accent": "#7289DA"
+    },
+    {
+      "id": "obs_studio",
+      "category": "other",
+      "name": "OBS Studio",
+      "description": {
+        "ru": "Запись экрана и стриминг с открытым исходным кодом.",
+        "en": "Open-source screen recording and streaming.",
+        "pl": "Otwartoźródłowe nagrywanie ekranu i streaming.",
+        "uk": "Запис екрана та стримінг із відкритим вихідним кодом."
+      },
+      "size": "≈ 100 MB",
+      "url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-32.2.1-Windows-x64-Installer.exe",
+      "accent": "#8C8C8C"
+    },
+    {
+      "id": "gimp",
+      "category": "other",
+      "name": "GIMP",
+      "description": {
+        "ru": "Редактор растровой графики с открытым кодом.",
+        "en": "Open-source raster graphics editor.",
+        "pl": "Otwartoźródłowy edytor grafiki rastrowej.",
+        "uk": "Редактор растрової графіки з відкритим кодом."
+      },
+      "size": "≈ 220 MB",
+      "url": "https://ftp.sh.cvut.cz/gimp/gimp/v3.2/windows/gimp-3.2.4-setup.exe",
+      "accent": "#5A7F9A"
+    },
+    {
+      "id": "inkscape",
+      "category": "other",
+      "name": "Inkscape",
+      "description": {
+        "ru": "Векторный редактор с поддержкой SVG.",
+        "en": "Vector editor with SVG support.",
+        "pl": "Edytor wektorowy z obsługą SVG.",
+        "uk": "Векторний редактор з підтримкою SVG."
+      },
+      "size": "≈ 140 MB",
+      "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4_2026-05-05_dcaf3e7-x64.signed_xMx7DJV.msi",
+      "accent": "#4FAF4F"
+    },
+    {
+      "id": "rufus",
+      "category": "system",
+      "name": "Rufus",
+      "description": {
+        "ru": "Создание загрузочных USB-носителей.",
+        "en": "Create bootable USB drives.",
+        "pl": "Tworzenie rozruchowych nośników USB.",
+        "uk": "Створення завантажувальних USB-носіїв."
+      },
+      "size": "≈ 3 MB",
+      "url": "https://release-assets.githubusercontent.com/github-production-release-asset/2810292/06f2f8e4-157c-4640-bb0f-101e62215a83?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A56%3A10Z&rscd=attachment%3B+filename%3Drufus-4.15.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A56%3A06Z&ske=2026-08-02T11%3A56%3A10Z&sks=b&skv=2018-11-09&sig=CsQbAVR2RZxzsnaNL7fKZpT1HrkcbUutLRTOu5pF7ao%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.gcqidISwQSakS_L2YEf_qa-mMGUararZA_ZpdKKiuBo",
+      "accent": "#FAF000"
+    },
+    {
+      "id": "ventoy",
+      "category": "system",
+      "name": "Ventoy",
+      "description": {
+        "ru": "Запуск ISO-образов с USB без перезаписи.",
+        "en": "Boot ISO images from USB without rewriting.",
+        "pl": "Uruchamianie obrazów ISO z USB bez nadpisywania.",
+        "uk": "Запуск ISO-образів з USB без перезапису."
+      },
+      "size": "≈ 20 MB",
+      "url": "https://sf-eu-introserv-3.dl.sourceforge.net/project/ventoy/v1.1.17/ventoy-1.1.17-windows.zip?viasf=1&fid=50b46f9b2e0283b2&e=1785755673&st=6-GQNo3bbaroUuuD3FmjWA",
+      "accent": "#3A7FFF"
+    },
+    {
+      "id": "qbittorrent",
+      "category": "other",
+      "name": "qBittorrent",
+      "description": {
+        "ru": "Лёгкий торрент-клиент без рекламы.",
+        "en": "Lightweight torrent client with no ads.",
+        "pl": "Lekki klient torrentów bez reklam.",
+        "uk": "Легкий торрент-клієнт без реклами."
+      },
+      "size": "≈ 20 MB",
+      "url": "https://deac-riga.dl.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.2.3/qbittorrent_5.2.3_x64_setup.exe?viasf=1&fid=832fb8e9b3f9449f&e=1785755691&st=3qq-cIQUABdwbVfo6FW0Cw",
+      "accent": "#2C75FF"
+    }
+  ],
+  "whitelist": [
+    "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
+    "https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US",
+    "https://c2rsetup.officeapps.live.com/c2r/downloadEdge.aspx?platform=Default&source=EdgeStablePage&Channel=Stable&language=en&Consent=0&brand=M100",
+    "https://referrals.brave.com/latest/BraveBrowserSetup-BRV090.exe",
+    "https://download3.operacdn.com/pub/opera_gx/102.0.4880.99/win/Opera_GX_102.0.4880.99_Setup_x64.exe",
+    "https://download.aida64.com/aida64extreme835.exe",
+    "https://download.cpuid.com/cpu-z/cpu-z_2.20.2-en.exe",
+    "https://de1-dl.techpowerup.com/files/P8MydUuVv3toDdxy5RC5xw/1785711376/GPU-Z.2.70.0.exe",
+    "https://download.cpuid.com/hwmonitor/hwmonitor_1.67.exe",
+    "https://deac-fra.dl.sourceforge.net/project/crystaldiskinfo/9.9.2/CrystalDiskInfo9_9_2.zip?viasf=1&fid=c130ea1730e6a1f5&e=1785754658&st=YSTKfADZBk__kmrcc0_f0A",
+    "https://dl.boosterx.org/BoosterX.exe",
+    "https://downloads.wisecleaner.com/soft/WiseCare365_8.0.4.732.exe",
+    "https://bits.avcdn.net/productfamily_CCLEANER7/insttype_FREE/platform_WIN/installertype_ONLINE/build_RELEASE/cookie_mmm_ccl_008_999_aah_m",
+    "https://www.rarlab.com/rar/winrar-x64-723.exe",
+    "https://release-assets.githubusercontent.com/github-production-release-asset/466446150/fb7c548d-f537-442d-91bb-7f8888599749?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-07-19T11%3A31%3A28Z&rscd=attachment%3B+filename%3D7z2602-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-07-19T10%3A30%3A56Z&ske=2026-07-19T11%3A31%3A28Z&sks=b&skv=2018-11-09&sig=HnuwE2u%2FkZM1zuPsTfe%2Bdbh%2FEw5AvPpU7R7yo7Y4tlw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NDQ1ODQ0OCwibmJmIjoxNzg0NDU4MTQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lhXWw02zDX91gztHhMAbDuJEJD7se_VcW1Hv6IkVUyE&response-content-disposition=attachment%3B%20filename%3D7z2602-x64.exe&response-content-type=application%2Foctet-stream",
+    "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.7/npp.8.9.7.Installer.x64.exe",
+    "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe",
+    "https://github.com/ShareX/ShareX/releases/download/v21.0.0/ShareX-21.0.0-setup-x64.exe",
+    "https://ftp.sh.cvut.cz/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.exe",
+    "https://release-assets.githubusercontent.com/github-production-release-asset/32921736/1d3adb9d-0994-488c-a835-3a6d5cf3bca4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A51%3A05Z&rscd=attachment%3B+filename%3Daudacity-win-3.7.8-64bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A51%3A00Z&ske=2026-08-02T11%3A51%3A05Z&sks=b&skv=2018-11-09&sig=vm2wp6bTAWCBleeHGPYC57dMfARqcgAaGbgeU1q6cKw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.Lq9AE1xTPS9Oe5-r6ST1I2ChtuOVkHMZEeG4uaYgEU0",
+    "https://files2.sumatrapdfreader.org/software/sumatrapdf/rel/3.6.1/SumatraPDF-3.6.1-64-install.exe",
+    "https://download.bleachbit.org/BleachBit-6.0.2-setup.exe",
+    "https://release-assets.githubusercontent.com/github-production-release-asset/184456251/56fcff65-2dee-4dcc-9bae-c653363ba93d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T12%3A03%3A53Z&rscd=attachment%3B+filename%3DPowerToysUserSetup-0.100.2-x64.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T11%3A03%3A03Z&ske=2026-08-02T12%3A03%3A53Z&sks=b&skv=2018-11-09&sig=4B07kZ77BpuOLP3enxsm%2FnzU52uwHLC%2BgMnjO0r22IA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.d6LoZTysdiVlKToBkdPlnSTzOxBR0NXJQANdYOSSY6o",
+    "https://deac-ams.dl.sourceforge.net/project/crystaldiskmark/9.0.3/CrystalDiskMark9_0_3.exe?viasf=1&fid=3146e97b3c195781&e=1785755489&st=e9a_SLsC0AKa2xEM1Zx7wQ",
+    "https://data-cdn.mbamupdates.com/web/mb5-setup-consumer/MBSetup.exe:MBSetup-3.3.exe",
+    "https://vscode.download.prss.microsoft.com/dbazure/download/stable/e4c7e7b1d6d060162f4aa7f8225271b67ce1df75/VSCodeUserSetup-x64-1.131.0.exe",
+    "https://release-assets.githubusercontent.com/github-production-release-asset/23216272/279f7f9c-8023-4c3f-b5f6-617ba8be5c02?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A57%3A32Z&rscd=attachment%3B+filename%3DGit-2.55.0.3-64-bit.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A57%3A21Z&ske=2026-08-02T11%3A57%3A32Z&sks=b&skv=2018-11-09&sig=%2FbX743DEK7spnxXyq24cMsVrgvJ8zBN31sYtQ1IJDb8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.YwF6yEs_H4Y6ZzVnzNZ5kD2EHJXqD3-fRQxoJgHmGsk",
+    "https://www.python.org/ftp/python/3.14.6/python-3.14.6-amd64.exe",
+    "https://stable.dl2.discordapp.net/distro/app/stable/win/x64/1.0.9250/DiscordSetup.exe",
+    "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-32.2.1-Windows-x64-Installer.exe",
+    "https://ftp.sh.cvut.cz/gimp/gimp/v3.2/windows/gimp-3.2.4-setup.exe",
+    "https://media.inkscape.org/dl/resources/file/inkscape-1.4.4_2026-05-05_dcaf3e7-x64.signed_xMx7DJV.msi",
+    "https://release-assets.githubusercontent.com/github-production-release-asset/2810292/06f2f8e4-157c-4640-bb0f-101e62215a83?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-02T11%3A56%3A10Z&rscd=attachment%3B+filename%3Drufus-4.15.exe&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-02T10%3A56%3A06Z&ske=2026-08-02T11%3A56%3A10Z&sks=b&skv=2018-11-09&sig=CsQbAVR2RZxzsnaNL7fKZpT1HrkcbUutLRTOu5pF7ao%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZWFzZXQncy5nYXQifQ.gcqidISwQSakS_L2YEf_qa-mMGUararZA_ZpdKKiuBo",
+    "https://sf-eu-introserv-3.dl.sourceforge.net/project/ventoy/v1.1.17/ventoy-1.1.17-windows.zip?viasf=1&fid=50b46f9b2e0283b2&e=1785755673&st=6-GQNo3bbaroUuuD3FmjWA",
+    "https://deac-riga.dl.sourceforge.net/project/qbittorrent/qbittorrent-win32/qbittorrent-5.2.3/qbittorrent_5.2.3_x64_setup.exe?viasf=1&fid=832fb8e9b3f9449f&e=1785755691&st=3qq-cIQUABdwbVfo6FW0Cw"
+  ]
+}
