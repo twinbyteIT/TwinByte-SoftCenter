@@ -1,21 +1,50 @@
-TwinByte SoftCenter
-Premium portable software download center by TwinByte IT.
-A clean, modern, and ultra-portable hub for discovering and downloading essential Windows utilities. No installation required — just run and go.
-Key Features
+# TwinByte SoftCenter
 
-Beautiful glassmorphism interface with smooth animations
-Fast search and category filtering
-Favorites system
-Multi-language support (English, Russian, Polish, Ukrainian)
-Performance mode for weaker PCs
-Always-on-top option
-Safe downloads via whitelist
-Fully portable — no installation, no registry changes
+TwinByte SoftCenter is a modern, portable, and efficient software download hub designed for quick and secure access to essential utilities.
 
-Categories
-Browsers • System Tools • Optimization • Diagnostics • Security • Other
-Designed for speed, clarity, and everyday convenience.
-Lightweight, elegant, and ready to use anywhere.
-Version 2.0.1
+## 🚀 Key Features
+
+*   **Ultra Portable**: Runs without installation.
+*   **Modern UI**: Sleek Glassmorphism design with hardware-accelerated animations (shadows, transitions) and a performance mode for low-end hardware.
+*   **Multilingual**: Native support for Russian, English, Polish, and Ukrainian with automatic system language detection.
+*   **Security Focused**: Strictly loads software from a pre-verified Whitelist.
+*   **Rich Functionality**:
+    *   Intuitive category-based navigation.
+    *   Favorites system to save preferred tools.
+    *   Real-time search capabilities.
+    *   Live download progress and speed monitoring.
+    *   Customizable download directory settings.
+
+## 🛠 Tech Stack
+
+*   **Language**: Python 3
+*   **GUI**: PyQt6
+*   **Networking**: Requests
+*   **Build**: Optimized for PyInstaller packaging
+
+## 📋 Requirements
+
+*   **OS**: Windows 10/11
+*   **Dependencies**:
+    *   `PyQt6`
+    *   `requests`
+
+## ⚙️ Setup & Usage
+
+1. **Launch**: Ensure the application is executed from a folder that adheres to the naming conventions (must contain "twinbyte" or "softcenter" in the path).
+2. **Database**: Applications are managed via the `programs.json` file in the root directory.
+3. **Settings**: User preferences (language, favorites, display mode) are automatically stored in `TwinByteSoftCenter/settings.json`.
+
+## 🛡 Security & Safety
+
+The application includes built-in protection layers:
+*   Blocks execution from temporary directories (Temp folders).
+*   Validates all file names and paths.
+*   Whitelisting mechanism to prevent unauthorized URL access.
+
+## 📩 Contact
+
+For inquiries, reach out to: [twinbytecontact@gmail.com](mailto:twinbytecontact@gmail.com)
+
+---
 © 2026 TwinByte IT. All rights reserved.
-This software is proprietary. Unauthorized copying, distribution or modification is prohibited.
