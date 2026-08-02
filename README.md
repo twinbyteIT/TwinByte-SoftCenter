@@ -36,9 +36,8 @@ TwinByte SoftCenter is a modern, portable, and efficient software download hub d
 
 ## ⚙️ Setup & Usage
 
-1. **Launch**: Ensure the application is executed from a folder that adheres to the naming conventions (must contain "twinbyte" or "softcenter" in the path).
-2. **Database**: Applications are managed via the `programs.json` file in the root directory.
-3. **Settings**: User preferences (language, favorites, display mode) are automatically stored in `TwinByteSoftCenter/settings.json`.
+1. **Database**: Applications are managed via the `programs.json` file in the root directory.
+2. **Settings**: User preferences (language, favorites, display mode) are automatically stored in `TwinByteSoftCenter/settings.json`.
 
 ## 🛡 Security & Safety
 
@@ -49,7 +48,7 @@ The application includes built-in protection layers:
   
 ## 🛡 Security Status
 ![VirusTotal Scan](https://img.shields.io/badge/VirusTotal-Clean-green?logo=virustotal)
-*All releases are scanned with VirusTotal to ensure 100% security for the end user.*
+*All releases are scanned with VirusTotal and distributed through verified sources*
 
 ## 🏗 Building from Source
 
