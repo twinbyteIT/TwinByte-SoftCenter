@@ -41,6 +41,10 @@ The application includes built-in protection layers:
 *   Blocks execution from temporary directories (Temp folders).
 *   Validates all file names and paths.
 *   Whitelisting mechanism to prevent unauthorized URL access.
+##   📺 Demo Video
+[![Watch the video](https://img.youtube.com/vi/o8yiGGLeZ7U/0.jpg)](https://www.youtube.com/watch?v=o8yiGGLeZ7U)
+
+*Click the image above to watch the TwinByte SoftCenter presentation on YouTube.*
 
 ## 📩 Contact
 
